@@ -12017,6 +12017,7 @@ textarea.form-control-lg {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .masthead {
@@ -12046,6 +12047,7 @@ textarea.form-control-lg {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .grid-about {
@@ -12081,7 +12083,7 @@ textarea.form-control-lg {
 }
 
 .skills-title {
-  padding-top: 8rem;
+  padding-top: 3rem;
 }
 
 .skills-grid {
@@ -12112,11 +12114,11 @@ textarea.form-control-lg {
 
 @media only screen and (max-width: 1200px) {
   .skills-title {
-    padding-top: 4rem;
+    padding-top: 2rem;
   }
 
   .skills-grid {
-    padding: 3rem;
+    padding: 2rem;
   }
 
   .skills-col-left {
@@ -12131,7 +12133,7 @@ textarea.form-control-lg {
 
 @media only screen and (max-width: 600px) {
   .skills-title {
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
 
   .skills-col-left {
@@ -12144,12 +12146,13 @@ textarea.form-control-lg {
   }
 
   .skills-grid {
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
   }
 
   .skills-margin {
-    margin-top: 3rem;
-    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-left: 0;
   }
 
   .skills-h3 {
