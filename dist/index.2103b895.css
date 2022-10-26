@@ -12108,8 +12108,8 @@ textarea.form-control-lg {
   margin-right: 2rem;
 }
 
-.modal-button {
-  margin-left: 1rem;
+.margin-technical skills {
+  margin-bottom: .5rem;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -12119,6 +12119,11 @@ textarea.form-control-lg {
 
   .skills-grid {
     padding: 2rem;
+  }
+
+  .skills-margin {
+    margin-top: 2rem;
+    margin-left: 1rem;
   }
 
   .skills-col-left {
